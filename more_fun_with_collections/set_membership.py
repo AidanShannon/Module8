@@ -7,7 +7,13 @@ says true or false if a value is in a set
 
 
 def in_set(some_set, some_value):
-    pass
+    """
+    takes two parameters and returns one in the other
+    :param some_set: any set
+    :param some_value: any value
+    :return:
+    """
+    return some_value in some_set
 
 
 if __name__ == '__main__':
