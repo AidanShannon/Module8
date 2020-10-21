@@ -9,7 +9,8 @@ from datetime import timedelta
 
 
 def half_birthday():
-    pass
+    birthday = datetime.datetime(2003, 9, 17)
+    return birthday + timedelta(days=182)
 
 
 if __name__ == '__main__':
