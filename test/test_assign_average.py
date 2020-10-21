@@ -18,6 +18,9 @@ class MyTestCase(unittest.TestCase):
     def test_F(self):
         self.assertEqual("You entered an F!", assign_average.switch_average('F'))
 
+     def test_non_key(self):
+        self.assertEqual("This is not a valid grade!", assign_average.switch_average('R'))
+
 
 if __name__ == '__main__':
     unittest.main()
